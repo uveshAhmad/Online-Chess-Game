@@ -22,7 +22,6 @@ const server = http.createServer(app);
 
 db.connect((err) => {
   if (err) {
-    
     process.exit(1);
   }
 
