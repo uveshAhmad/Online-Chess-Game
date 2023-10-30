@@ -13,7 +13,7 @@ const fetchData = (url, callback) => {
 }
 
 socket.on("error", (errorMessage) => {
-    window.location.href = "https://online-chess-game-production.up.railway.app/games?error=" + errorMessage
+    window.location.href = "http://localhost:5000/games?error=" + errorMessage
 })
  
  
