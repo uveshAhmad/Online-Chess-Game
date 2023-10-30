@@ -75,7 +75,7 @@ exports.register = (req, res) => {
             })
         })
     } catch (err) {
-        console.log(err)
+      
         res.redirect("/register?error=Something went wrong!");
     }
 }
@@ -136,7 +136,7 @@ exports.login = (req, res) => {
             })
         })
     } catch (err) {
-        console.log(err);
+        
         res.redirect("/login?error=Something went wrong!")
     }
 }
@@ -159,7 +159,7 @@ exports.getInfo = (req, res) => {
             return res.json(user);
         })
     } catch (err) {
-        console.log(err)
+         
         res.status(500).json({error: err.message});
     }
 }
@@ -204,7 +204,7 @@ exports.changeUsername = (req, res) => {
             })
         })
     } catch (err) {
-        console.log(err)
+        
         res.status(500).json({error: err.message})
     }
 }
@@ -249,7 +249,7 @@ exports.changeEmail = (req, res) => {
             })
         })
     } catch (err) {
-        console.log(err)
+         
         res.status(500).json({error: err.message})
     }
 }
@@ -286,7 +286,7 @@ exports.changePassword = (req, res) => {
             })
         })
     } catch (err) {
-        console.log(err)
+      
         res.status(500).json({error: err.message})
     }
 }
@@ -309,7 +309,7 @@ exports.deleteAccount = (req, res) => {
             res.json({message: "Account deleted successfully"})
         })
     } catch (err) {
-        console.log(err)
+        
         res.status(500).json({error: err.message})
     }
 }

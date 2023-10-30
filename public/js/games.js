@@ -111,21 +111,7 @@ const displayRooms = rooms => {
 }
 
 
-// // ise baad me implement krna hai 
  
-
-// const fetchData= (url, callback) => {
-//     fetch(url)
-//     .then(res => {
-//         if(!res.ok){
-//             throw Error("Something went wrong");
-//         }
-
-//         return res.json();
-//     })
-//     .then(callback)
-//     .catch(err => console.log(err.message))
-//  }
 
 fetchData('/api/user-info', fetchUserCallback)
 
@@ -143,7 +129,7 @@ socket.on('receive-rooms', rooms => {
 })
 
 socket.on("room-created", () => {
-    console.log("me yha hu room created me")
+    
     let id = roomId.value;
 
     if(addPassword.checked && roomPassword.value !== ""){
