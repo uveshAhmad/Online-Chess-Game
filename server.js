@@ -22,11 +22,11 @@ const server = http.createServer(app);
 
 db.connect((err) => {
   if (err) {
-    console.log(err);
+    
     process.exit(1);
   }
 
-  console.log("Connected to MySQL Database...");
+   
 });
 
 app.use(cookieParser("secret"));
@@ -416,6 +416,6 @@ socket.on("disconnect", () => {
 
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {
-  console.log(`server is started at http://localhost:${PORT}`);
+  
 });
 

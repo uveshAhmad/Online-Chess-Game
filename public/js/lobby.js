@@ -9,7 +9,7 @@ const fetchData = (url, callback) => {
         return res.json();
     })
     .then(callback)
-    .catch(err => console.log(err.message))
+    .catch(err )
 }
 
 /// DOM Elements
