@@ -9,7 +9,7 @@ const fetchData = (url, callback) => {
         return res.json();
     })
     .then(callback)
-    .catch(err)
+    .catch(err => console.log(err.message))
 }
 
 socket.on("error", (errorMessage) => {
