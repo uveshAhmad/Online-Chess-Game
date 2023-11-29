@@ -6,15 +6,15 @@ const host = process.env.MYSQL_HOST;
 const password = process.env.MYSQL_PASSWORD;
 const database = process.env.MYSQL_DATABASE;
 const port = process.env.MYSQL_PORT;
-const url = process.env.MYSQL_URL
+//const url = process.env.MYSQL_URL
 
 const db = mysql.createConnection({
     user,
     host,
     password,
     database,
-    port,
-    url
+    port
+    
 })
 
 module.exports = db;
