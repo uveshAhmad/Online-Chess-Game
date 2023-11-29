@@ -3,9 +3,7 @@
 
  ![ChessApp](https://github.com/uveshAhmad/Online-Chess-Game/assets/115268659/461fb7c7-4f54-4c62-b8ac-f005c35f4d35)
 
- ![ChessApp (1)](https://github.com/uveshAhmad/Online-Chess-Game/assets/115268659/cd0fb4ac-1126-4b1b-8341-ce8de477639a)
-
-
+ 
 Project Description 
 
 
