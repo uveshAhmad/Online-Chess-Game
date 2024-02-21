@@ -1,3 +1,4 @@
+//Games Routes
 const {Router} = require('express');
 const { getGames, getGameMoves } = require('../../controllers/api/games');
 const { isAuthorized } = require('../../middlewares/user');

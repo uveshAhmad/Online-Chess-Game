@@ -1,4 +1,5 @@
 // middleware for game ki API laane ke liye (req.user.id)
+// For checking Authorisation and Authentication
 
 const jwt = require('jsonwebtoken')
 const dotenv = require("dotenv")

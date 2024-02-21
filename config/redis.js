@@ -1,3 +1,4 @@
+// Redis Database Connection
 const redis = require("redis");
 const dotenv = require("dotenv")
 

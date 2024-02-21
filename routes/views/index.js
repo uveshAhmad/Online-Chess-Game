@@ -1,3 +1,4 @@
+// Views Routes
 const {Router} = require("express");
 const { getRegisterPage, getLoginPage , getLobbyPage, getGamesPage, getRoomPage , getStatsPage , getPlayedGamesPage , getProfilePage } = require("../../controllers/views");
 
