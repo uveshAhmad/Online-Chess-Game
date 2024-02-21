@@ -1,3 +1,5 @@
+// Controller Views
+
 // exports.getRegisterPage = (req, res) => {
 //     if(req.cookies.token){
 //          return res.render("/")
